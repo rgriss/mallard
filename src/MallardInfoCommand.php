@@ -37,7 +37,7 @@ class MallardInfoCommand extends Command
     public function handle()
     {
 
-        $this->warn("WARNING: This program is for administrators.  If you don't know what you are doing, please leave now.  Otherwise, type your name to continue.");
+        $this->warn("WARNING: This program is for administrators.  If you don't know what you are doing, please leave now.");
         //The Storage Facade does NOT work as expected in the CLI environment on homestead:
         //$x=Storage::makeDirectory($storageSqlDirectory);
         //the following code uses this instead:

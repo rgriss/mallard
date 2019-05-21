@@ -13,6 +13,7 @@ class MallardServiceProvider extends ServiceProvider{
         if ($this->app->runningInConsole()) {
             $this->commands([
                 MallardQuackCommand::class,
+                MallardInfoCommand::class,
             ]);
         }
     }

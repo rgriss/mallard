@@ -14,6 +14,7 @@ class MallardServiceProvider extends ServiceProvider{
             $this->commands([
                 MallardQuackCommand::class,
                 MallardInfoCommand::class,
+                MallardBackupCommand::class,
             ]);
         }
     }

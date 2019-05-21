@@ -12,5 +12,17 @@
             "email": "ryan.grissinger@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ryang\\Mallard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ryang\\Mallard\\MallardServiceProvider"
+            ]
+        }
+    }
 }

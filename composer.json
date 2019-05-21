@@ -3,7 +3,8 @@
     "description": "A utility to backup and restore database for a project",
     "type": "library",
     "require": {
-        "illuminate/support": "^5.9@dev"
+        "illuminate/support": "^5.9@dev",
+        "illuminate/console": "^5.9@dev"
     },
     "license": "MIT",
     "authors": [

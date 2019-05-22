@@ -1,5 +1,5 @@
 <?php
-namespace Ryang\Mallard;
+namespace Rgriss\Mallard;
 use Illuminate\Support\ServiceProvider;
 
 class MallardServiceProvider extends ServiceProvider{

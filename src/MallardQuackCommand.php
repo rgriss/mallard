@@ -1,6 +1,6 @@
 <?php
 
-namespace Ryang\Mallard;
+namespace Rgriss\Mallard;
 use Illuminate\Console\Command;
 
 class MallardQuackCommand extends Command

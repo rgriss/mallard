@@ -1,6 +1,6 @@
 {
-    "name": "ryang/mallard",
-    "description": "A utility to backup and restore database for a project",
+    "name": "rgriss/mallard",
+    "description": "A utility to backup and restore database for a laravel project",
     "type": "library",
     "require": {
         "illuminate/support": "^5.9@dev"
@@ -15,13 +15,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ryang\\Mallard\\": "src/"
+            "Rgriss\\Mallard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ryang\\Mallard\\MallardServiceProvider"
+                "Rgriss\\Mallard\\MallardServiceProvider"
             ]
         }
     }

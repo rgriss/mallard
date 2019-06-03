@@ -108,6 +108,7 @@ class MallardBackupCommand extends Command
         //Maybe due to linux virtual machine running on windows?
 
         $process = new Process(['mysqldump',$db]);
+        $process->setTimeout(300);
         $process->run();
         $result = $process->getOutput();
 
